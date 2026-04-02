@@ -31,16 +31,19 @@ Setiap data order disimpan dalam atribut object menggunakan self.
 
 ## Testing
 
-Program diuji dengan membuat 3 data order:
+Saya membuat 3 data pesanan:
 
-* ORD001
-* ORD002
-* ORD003
+* ORD001 total Rp250.000
+* ORD002 total Rp500.000
+* ORD003 total Rp750.000
 
-Kemudian seluruh order dimasukkan ke OrderProcessor untuk menghitung:
+Program dijalankan menggunakan tax rate 11%.
 
-* total revenue
-* total tax
+Hasil output program:
+
+* Total Revenue = Rp1.500.000
+* Total Tax = Rp165.000
+
 
 ## Run Program
 
